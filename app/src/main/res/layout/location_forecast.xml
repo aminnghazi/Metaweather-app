@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:text="Today's weather condition : "
+    android:textSize="22dp"
+    android:textColor="@color/colorPrimaryDark"
+    />
+
+    <TextView
+        android:id="@+id/state_name"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="weather state name"
+        />
+    <TextView
+        android:id="@+id/air_pressure"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="air pressure"
+        />
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="humadity"
+        />
+    <TextView
+        android:id="@+id/predictablity"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="predicitability"
+        />
+    <TextView
+        android:id="@+id/min_temp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Min temp"
+        />
+    <TextView
+        android:id="@+id/max_temp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Max temp"
+        />
+    <TextView
+        android:id="@+id/the_temp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="temp"
+        />
+</LinearLayout>
